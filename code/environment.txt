@@ -1,0 +1,5 @@
+numpy==1.7.1
+torch==1.7.0
+sklearn==0.22.0
+pandas==1.0.5
+cuda=10.1.243
