@@ -1,5 +1,4 @@
-# Deep Clustering for Fair Outlier Detection
-Source code for kdd2021 research paper submission
+Hanyu Song, Peizhao Li, and Hongfu Liu. "Deep Clustering for Fair Outlier Detection, SIGKDD 2021.
 
 ## Paper Abstract
 In this paper, we focus on the fairness issues regarding unsupervised outlier detection. Traditional algorithms, without specific design for algorithmic fairness, could implicitly encode and propagate statistical bias in data and raise societal concerns. To correct such unfairness and deliver a fair set of potential outlier candidates, we propose Deep Clustering-based Fair Outlier Detection (DCFOD) that learns a good representation for utility maximization while enforcing the learnable representation to be subgroup-invariant on the sensitive attribute. Considering the coupled and reciprocal nature between clustering and outlier detection, we leverage deep clustering to discover the intrinsic cluster structure and out-of-structure instances. Meanwhile, an adversarial training erases the sensitive pattern for instances for fairness adaptation. Technically, we propose an instance-level weighted representation learning strategy to enhance the joint deep clustering and outlier detection, where the dynamic weight module re-emphasizes contributions of likely-inliers while mitigating the negative impact from outliers. Demonstrated by experiments on eight datasets comparing to 17 outlier detection algorithms, our DCFOD method consistently achieves superior performance on both the outlier detection validity and two types of fairness notions in outlier detection.
@@ -85,3 +84,9 @@ We use *AUC* to measure detection validity, and *Fgap*, *Frank* to measure two t
 We calculate *AUC* with `roc_auc_score` from `sklearn.metrics`, and define *Fgap*, *Frank* in `Retriever.py`.
 
 During model training, we obtain the fairness metrics with the *fetch* method in `Retriever.py`.
+
+
+### Reference
+```
+Not yet available
+```
