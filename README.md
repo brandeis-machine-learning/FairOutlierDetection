@@ -1,4 +1,4 @@
-#Fair Outlier Detection
+# Fair Outlier Detection
 Hanyu Song, Peizhao Li, and Hongfu Liu. "Deep Clustering for Fair Outlier Detection, SIGKDD 2021.
 
 ## Paper Abstract
