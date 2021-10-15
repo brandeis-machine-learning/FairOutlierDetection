@@ -89,5 +89,21 @@ During model training, we obtain the fairness metrics with the *fetch* method in
 
 ### Reference
 ```
-Not yet available
+@inproceedings{10.1145/3447548.3467225,
+author = {Song, Hanyu and Li, Peizhao and Liu, Hongfu},
+title = {Deep Clustering Based Fair Outlier Detection},
+year = {2021},
+isbn = {9781450383325},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3447548.3467225},
+doi = {10.1145/3447548.3467225},
+booktitle = {Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining},
+pages = {1481–1489},
+numpages = {9},
+keywords = {fair representation learning, deep clustering on outlier detection, outlier detection},
+location = {Virtual Event, Singapore},
+series = {KDD '21}
+}
+
 ```
